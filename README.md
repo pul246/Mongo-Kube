@@ -35,6 +35,11 @@ kubectl apply -f secret.yaml
 kubectl apply -f mongo-config.yaml
 kubectl apply -f mongo-app.yaml
 kubectl apply -f web-app.yaml
+kubectl apply -f mongo-pv.yaml
+kubectl apply -f mongo-pvc.yaml
+kubectl apply -f mongo-resource-patch.yaml
+kubectl apply -f mongo-probes-patch.yaml
+kubectl apply -f webapp-patch.yaml
 ```
 
 ### Access Mongo Express UI
